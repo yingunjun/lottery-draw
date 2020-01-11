@@ -79,10 +79,10 @@ class WindowClass(wx.Frame):
 		image = wx.Bitmap.FromBuffer(h, w, img)
 		dc.DrawBitmap(image , 0, 0)
 
-	def onCombobox(self,event):
-		str_get = event.GetString()
-		label = '2020年新年年会'+ str_get +'获奖人员'
-		self.lottery_label.SetLabel(label)
+	# def onCombobox(self,event):
+	# 	str_get = event.GetString()
+	# 	label = '2020年新年年会'+ str_get +'获奖人员'
+	# 	self.lottery_label.SetLabel(label)
 
 	def onLottery(self,event):
 		self.start_label = True
