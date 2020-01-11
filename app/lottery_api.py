@@ -10,7 +10,7 @@ from app.transText import TransparentStaticText
 class WindowClass(wx.Frame):
 	def __init__(self,parent,title):
 	
-		wx.Frame.__init__(self, None, -1, "康普常青年会")
+		wx.Frame.__init__(self, None, -1, "年会")
 		dpi = wx.DisplaySize()
 		dispApi.set_ratio(dpi[0],dpi[1])
 		self.Bind(wx.EVT_CLOSE,self.onClose)
